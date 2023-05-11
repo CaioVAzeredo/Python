@@ -8,7 +8,7 @@ formato1 = string1.format( nome1 = a, nome2 = b, nome3 = c);
 #OU pode ser assim tambem:
 string2 = 'b = {1} a = {0} c = {2: .2f}';
 formato2 = string2.format( a, b, c);
-                        #0, 1, 2
+                          #0, 1, 2
 
 print(formato1, formato2);
 
