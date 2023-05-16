@@ -1,24 +1,20 @@
+import pywhatkit
+import pyautogui
+import time
+from datetime import datetime
 
 
 contato = []
-quantidade_num = 0
-
 while True:
-
-    condicao = input('Deseja adicionar algum número?(s/n): ')
-    if condicao == 's' or condicao == 'S':
-        numero = input('Insira um numero')
-        contato.append(numero)
-    elif condicao == 'n' or condicao == 'N':
+    numero = input("Insira um numero com o +55 ou (s/S) para sair: ")
+    contato.append(numero)
+    if numero == "s":
         break
-    else: 
-        print('Insira um valor válido')
-        quantidade_num -= 1
-    quantidade_num += 1
 
-    if quantidade_num < 1:
-        quantidade_num = 0 
-    else:    
-        quantidade_num = len(contato)
-
-print(f"quantidade de números: {quantidade_num} números na lista: {contato}")
+mensagem = input("Insira a mensagem que deseja mandar para esses números: ")
+while len(contato) >= 1:
+    pywhatkit.sendwhatmsg(contato[0], mensagem, datetime.now().hour, datetime.now().minute + 1)
+    del contato[0]
+    
+    time.sleep(10) 
+    pyautogui.hotkey("ctrl", "w")
