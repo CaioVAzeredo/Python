@@ -1,0 +1,100 @@
+Date: 15/5/2023
+Time: 11:21
+Phone Number: +556191016960
+Message: teste de mensagem
+--------------------
+Date: 15/5/2023
+Time: 11:24
+Phone Number: +556191016960
+Message: teste de mensagem
+--------------------
+Date: 15/5/2023
+Time: 21:46
+Phone Number: +55 61 9101-6960
+Message: mensagem
+--------------------
+Date: 15/5/2023
+Time: 21:50
+Phone Number: +55 61 9101-6960
+Message: mensagem de teste
+--------------------
+Date: 15/5/2023
+Time: 21:52
+Phone Number: +55 61 8342-2055
+Message: mensagem de teste
+--------------------
+Date: 15/5/2023
+Time: 21:57
+Phone Number: +55 61 9101-6960
+Message: outra mensagem de teste
+--------------------
+Date: 15/5/2023
+Time: 22:5
+Phone Number: +55 61 9101-6960
+Message: mais uma mensagem de teste
+--------------------
+Date: 15/5/2023
+Time: 22:7
+Phone Number: +55 61 8342-2055
+Message: mais uma mensagem de teste
+--------------------
+Date: 15/5/2023
+Time: 22:9
+Phone Number:  +55 61 8342-2055
+Message: ultimo teste de hoje
+--------------------
+Date: 15/5/2023
+Time: 22:10
+Phone Number: +55 61 9101-6960
+Message: ultimo teste de hoje
+--------------------
+Date: 15/5/2023
+Time: 22:15
+Phone Number: +55 61 8342-2055
+Message: ultimo teste das teclas ctrl + w
+--------------------
+Date: 15/5/2023
+Time: 22:16
+Phone Number: +55 61 9101-6960 
+Message: ultimo teste das teclas ctrl + w
+--------------------
+Date: 15/5/2023
+Time: 22:18
+Phone Number: +55 61 8342-2055
+Message: ultimo teste definitivo e agora vou parar
+--------------------
+Date: 15/5/2023
+Time: 22:19
+Phone Number: +55 61 9101-6960
+Message: ultimo teste definitivo e agora vou parar
+--------------------
+Date: 15/5/2023
+Time: 22:21
+Phone Number: +55 61 8342-2055
+Message: agora ta indo 100%
+--------------------
+Date: 15/5/2023
+Time: 22:22
+Phone Number: +55 61 9101-6960 
+Message: agora ta indo 100%
+--------------------
+Date: 15/5/2023
+Time: 22:27
+Phone Number: +55 61 9101-6960
+Message: agora foi
+--------------------
+Date: 15/5/2023
+Time: 22:28
+Phone Number: +55 61 8342-2055
+Message: agora foi
+--------------------
+Date: 15/5/2023
+Time: 22:30
+Phone Number: +55 61 9101-6960 
+Message: finalizado com sucesso
+--------------------
+Date: 15/5/2023
+Time: 22:31
+Phone Number: +55 61 8342-2055
+Message: finalizado com sucesso
+--------------------
