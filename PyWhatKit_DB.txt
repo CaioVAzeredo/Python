@@ -98,3 +98,53 @@ Time: 22:31
 Phone Number: +55 61 8342-2055
 Message: finalizado com sucesso
 --------------------
+Date: 16/5/2023
+Time: 22:22
+Phone Number: +55 61 995839538
+Message: teste de envio
+--------------------
+Date: 16/5/2023
+Time: 22:23
+Phone Number: +55 61 995839538
+Message: teste de envio
+--------------------
+Date: 16/5/2023
+Time: 22:24
+Phone Number: +55 61 995839538
+Message: teste de envio
+--------------------
+Date: 16/5/2023
+Time: 22:27
+Phone Number: +5561995839538
+Message: oi
+--------------------
+Date: 16/5/2023
+Time: 22:28
+Phone Number: +55 61 995839538
+Message: teste de envio
+--------------------
+Date: 16/5/2023
+Time: 22:33
+Phone Number: +5561995839538
+Message: oi
+--------------------
+Date: 16/5/2023
+Time: 22:34
+Phone Number: +5561995839538
+Message: oi
+--------------------
+Date: 16/5/2023
+Time: 22:35
+Phone Number: +5561995839538
+Message: oi
+--------------------
+Date: 16/5/2023
+Time: 22:36
+Phone Number: +5561995839538
+Message: oi
+--------------------
+Date: 16/5/2023
+Time: 22:37
+Phone Number: +5561995839538
+Message: oi
+--------------------
