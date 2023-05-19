@@ -16,5 +16,5 @@ while len(contato) >= 1:
     pywhatkit.sendwhatmsg(contato[0], mensagem, datetime.now().hour, datetime.now().minute + 1)
     del contato[0]
     
-    time.sleep(5) 
+    time.sleep(60) 
     pyautogui.hotkey("ctrl", "w")
