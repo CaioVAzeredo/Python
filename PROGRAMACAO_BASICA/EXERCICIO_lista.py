@@ -9,7 +9,7 @@ import os
 compras  = [' ']
 
 while True:
-    for i, nome in enumerate(compras):
+    
         opcao = input('[A]pagar, [I]nserir ou [L]istar: ')
         if opcao == 'i':
             if opcao == 'i' and compras[0] == ' ':
@@ -22,8 +22,13 @@ while True:
         elif opcao == 'a':
             os.system('cls')
             indice = input('Insira o valor do índice para apagar: ')
-            intIndice = int(indice)
-            del compras[intIndice]
+            try:
+                intIndice = int(indice)
+                del compras[intIndice]
+            except ValueError:
+                print('Não foi possível apagar esseíndice')
+            except IndexError:
+                print('Índice não existe na lista')
             print(f'Produto excluído com sucesso!!')
             os.system('cls')
             continue
