@@ -1,4 +1,3 @@
-import time
 #    0    4    8   2   6   9   2   4     1
 # *
 #   10    9    8   7   6   5   4   3     2
@@ -14,13 +13,22 @@ import time
 
 #se maior que 9:
     #o numero deve ser 0(zero)
+import time
+import re
 
 while True:
     condicao = input('Deseja coloca um cpf? (s-sim. n-não):\n')
     if condicao == 's' or condicao == 'S':
-        cpf = input("Insira um numero de cpf: ")
-        digito_1 = cpf[:9] #Limitando do 0(zero) até o 9
+        cpf = re.sub(r'[^0-9]', # isso faz com o que crie um range de 0 até 9 e que seja:
+            '', # subistituído pelo que tem nas aspas
+            input("Insira um numero de cpf: ").replace('.', '').replace('-', ''))
 
+        cpfRepeticao = cpf[0] * len(cpf)
+        if cpfRepeticao == cpf:
+            print('\nCPF inválido. Insira um CPF válido!!!\n')
+            continue
+
+        digito_1 = cpf[:9] #Limitando do 0(zero) até o 9
         cont_10 = 10
 
         soma_1 = 0

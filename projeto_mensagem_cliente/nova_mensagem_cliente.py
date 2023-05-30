@@ -30,12 +30,12 @@ while True:
 mensagem = input("Insira a mensagem que deseja mandar para esses números: ")
 while len(contato) >= 1:
     while len(contato) >= 1:
+        if numero == 's' or numero == 'S':
+            pyautogui.hotkey("enter")
         pywhatkit.sendwhatmsg(contato[0], mensagem, datetime.now().hour, datetime.now().minute + 2)
         del contato[0]
-        pyautogui.hotkey("enter")
         time.sleep(15) 
         pyautogui.hotkey("ctrl", "w")
-    if numero == 's' or numero == 'S':
         break
 print('fim do programa')
 
