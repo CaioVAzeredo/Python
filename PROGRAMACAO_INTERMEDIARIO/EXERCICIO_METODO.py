@@ -18,4 +18,6 @@ perguntas= [
     }
 ]
 
+print(type(perguntas[1]))
+
 
