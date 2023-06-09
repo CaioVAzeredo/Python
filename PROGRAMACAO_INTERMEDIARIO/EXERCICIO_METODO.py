@@ -18,6 +18,20 @@ perguntas= [
     }
 ]
 
-print(type(perguntas[1]))
+i = 0
+for pergunta in perguntas :
+      
+    print(pergunta['Pergunta'])
+    j = int(0)
+    for opcao in pergunta['Opções']:
+        print(f'{j})',opcao)  
+        j += 1
 
+    respostaUsuario = input('Escolha uma opçao: ')
+    resposta = str(respostaUsuario)
 
+    if resposta == pergunta['Resposta']:
+        print('Voce acertou')
+    else: print('Voce errou')
+    i += 1
+    
