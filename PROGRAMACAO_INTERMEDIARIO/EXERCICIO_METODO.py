@@ -18,6 +18,11 @@ perguntas= [
     }
 ]
 
-print(type(perguntas[1]))
-
-
+for pergunta in perguntas:
+    print(pergunta['Pergunta'])
+    i = 0
+    while len(pergunta['Opções']) > i:
+        print(f'{i})',pergunta['Opções'][i])
+        i+=1
+    resposta = input('Qual a resposta?')
+     
