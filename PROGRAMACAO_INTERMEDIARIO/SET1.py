@@ -43,16 +43,3 @@ s1.update(('olá, mundo', 1, 2, 3, 4))
 s1.discard('olá, mundo')
 s1.discard('Caio')
 print(s1)
-
-
-
-
-
-
-
-
-# Operadores úteis:
-# união | união (union) - Une
-# intersecção & (intersection) - Itens presentes em ambos
-# diferença - Itens presentes apenas no set da esquerda
-# diferença simétrica ^ - Itens que não estão em ambos
