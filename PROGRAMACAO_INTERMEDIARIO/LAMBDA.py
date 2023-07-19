@@ -12,6 +12,14 @@
 #     {'nome': 'Aline', 'sobrenome': 'Souza'},
 # ]
 
+# lista = [4, 32, 1, 34, 5, 6, 6, 21, ]
+# lista.sort(reverse=True) ordena em ordem crescente e o reverse em ordem decrescente
+# sorted(lista)
+
+
+
+
+
 lista = [
     {'nome': 'Luiz', 'sobrenome': 'miranda'},
     {'nome': 'Maria', 'sobrenome': 'Oliveira'},
@@ -20,6 +28,3 @@ lista = [
     {'nome': 'Aline', 'sobrenome': 'Souza'},
 ]
 
-# lista = [4, 32, 1, 34, 5, 6, 6, 21, ]
-# lista.sort(reverse=True) ordena em ordem crescente e o reverse em ordem decrescente
-# sorted(lista)
